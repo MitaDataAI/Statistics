@@ -31,3 +31,9 @@ Below are the key points to note:
 - When you want to group time series, use dataframe.resample()
 - To implement linear regression, we need to create an instance of the model and then apply it to our data. A basic understanding of object-oriented programming is necessary to fully grasp this process.
 
+# During the fourth practice :
+- To visualize the correlation between all variables, we can use Pandas’ corr() method to compute the correlation matrix, and Seaborn’s heatmap to plot it.
+- Seaborn’s pairplot becomes quickly limited when dealing with many variables. It is more suitable for exploring relationships between the target variable and a few selected features.
+- Additionally, we can use Pandas to plot distributions, helping us create more ergonomic and focused visualizations.
+
+
