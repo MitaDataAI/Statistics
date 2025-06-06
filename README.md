@@ -29,3 +29,5 @@ Below are the key points to note:
 - We use pd.to_datetime to transform date to transform the nature of data to Date
 - We can df.plot() to plot all quantitative variable and with there name.
 - When you want to group time series, use dataframe.resample()
+- To implement linear regression, we need to create an instance of the model and then apply it to our data. A basic understanding of object-oriented programming is necessary to fully grasp this process.
+
